@@ -333,4 +333,46 @@ To https://github.com/mpragmas/bundle-1---exercise-1.git
  * [new branch]      ft/service-redesign -> ft/service-redesign
 branch 'ft/service-redesign' set up to track 'origin/ft/service-redesign'.
 
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git checkout main
+Switched to a new branch 'main'
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git add readMe.md
+Merge branch 'main' of https://github.com/mpragmas/bundle-1---exercise-1
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git commit -m "bundle 2 exercise 2"
+[main ee10cc4] bundle 2 exercise 2
+ 1 file changed, 65 insertions(+), 103 deletions(-)
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 974 bytes | 974.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git
+To https://github.com/mpragmas/bundle-1---exercise-1.git
+   24d68a7..e1a9121  main -> main
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git checkout ft/service-redesign
+Switched to branch 'ft/service-redesign'
+Your branch is up to date with 'origin/ft/service-redesign'.
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
+$ git diff
+Your branch is up to date with 'origin/ft/service-redesign'.
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
+$ git merge
+Already up to date.
 ```
