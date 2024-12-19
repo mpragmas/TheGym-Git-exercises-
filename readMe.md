@@ -86,7 +86,7 @@ HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (dev)
 $
 ```
 
-## Git bundle1 - Exercise1
+## Git bundle1 - Exercise2
 
 ```bash
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
@@ -324,5 +324,101 @@ To https://github.com/mpragmas/bundle-1---exercise-1.git
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $
+
+```
+
+## Git bundle1 - Exercise1
+
+```bash
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ touch services.html
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ git add services.html
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ git commit -m "added servces page"
+[ft/bundle-2 3703bc6] added servces page
+ 1 file changed, 9 insertions(+)
+ create mode 100644 services.html
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ git push
+fatal: The current branch ft/bundle-2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ft/bundle-2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$  git push --set-upstream origin ft/bundle-2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 423 bytes | 211.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git
+remote:
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/mpragmas/TheGym-Git-exercises-/pull/new/ft/bundle-2
+remote:
+To https://github.com/mpragmas/bundle-1---exercise-1.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ git add home.html readMe.md
+
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
+$ git commit -m "updated readMe"
+[ft/bundle-2 15cb337] updated readMe
+ 2 files changed, 65 insertions(+), 91 deletions(-)
+
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2|MERGING)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+$ git pull
+Updating 3d78b2b..6347fe8
+Fast-forward
+ services.html | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ create mode 100644 services.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
