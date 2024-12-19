@@ -103,15 +103,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git add home.html
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   home.html
-
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git stash list
@@ -135,9 +126,6 @@ Changes to be committed:
 
 Dropped refs/stash@{0} (fc5c595a4092d598050670b1490600234927bc51)
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git stash
-Saved working directory and index state WIP on main: 2377b92 updated readMe
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ touch home.html
@@ -163,21 +151,9 @@ HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git stash
 Saved working directory and index state WIP on main: 2377b92 updated readMe
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git stash
-No local changes to save
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git add about.html
-
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   about.html
 
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
@@ -253,17 +229,6 @@ Dropped stash@{0} (b73688449f894b86df63ecc1a05dc16a769aeed4)
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git reset
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        team.html
-
-nothing added to commit but untracked files present (use "git add" to track)
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git reset --hard
@@ -272,17 +237,6 @@ HEAD is now at 5a26a96 added about.html and home.html
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git reset HEAD
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        team.html
-
-nothing added to commit but untracked files present (use "git add" to track)
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git push
@@ -327,7 +281,7 @@ $
 
 ```
 
-## Git bundle1 - Exercise1
+## Git bundle2 - Exercise1
 
 ```bash
 
@@ -380,7 +334,6 @@ branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
 $ git add home.html readMe.md
-
 
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
