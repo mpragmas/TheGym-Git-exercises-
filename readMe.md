@@ -219,7 +219,6 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
-
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2)
 $  git push --set-upstream origin ft/bundle-2
 Enumerating objects: 4, done.
@@ -238,8 +237,6 @@ remote:
 To https://github.com/mpragmas/bundle-1---exercise-1.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
-
-
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2|MERGING)
 $ git checkout main
