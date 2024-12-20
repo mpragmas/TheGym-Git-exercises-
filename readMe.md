@@ -272,33 +272,27 @@ To https://github.com/mpragmas/bundle-1---exercise-1.git
 
 ```bash
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/bundle-2|MERGING)
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)heGym/git/1/1 (dev)
 $ git checkout main
 Switched to branch 'main'
-Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
+Your branch is up to date with 'origin/main'.  heGym/git/1/1 (main)
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git pull
-Updating 3d78b2b..6347fe8
-Fast-forward
- services.html | 9 +++++++++
- 1 file changed, 9 insertions(+)
- create mode 100644 services.html
-
+$  git pull
+Already up to date.
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git checkout -b ft/service-redesign
 Switched to a new branch 'ft/service-redesign'
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
-$ git add .
+$ git add --all
+
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
-$ git commit -m "added team page"
-[ft/service-redesign c4c5e8d] added team page
- 2 files changed, 12 insertions(+), 1 deletion(-)
- create mode 100644 team.html
+$ git commit -m "added service list"
+[ft/service-redesign 91dab6f] added service list
+ 1 file changed, 4 insertions(+), 1 deletion(-)
 
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
@@ -308,71 +302,123 @@ To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin ft/service-redesign
 
-To have this happen automatically for branches without a tracking
+To have this happen automatically for branches
+without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
+
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
-$ git push --set-upstream origin ft/service-redesign
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
+$  git push --set-upstream origin ft/service-redesign
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
-Counting objects: 100% (6/6), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 395 bytes | 197.00 KiB/s, done.
-Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
-remote: This repository moved. Please use the new location:
-remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git
-remote:
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 343 bytes | 68.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.bjects.
+remote: This repository moved. Please use the new location:   t
+remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git                                                             Hub by visiting:
+remote:                                                       /pull/new/ft/service-redesign
 remote: Create a pull request for 'ft/service-redesign' on GitHub by visiting:
-remote:      https://github.com/mpragmas/TheGym-Git-exercises-/pull/new/ft/service-redesign
+remote:      https://github.com/mpragmas/TheGym-Git-exercises-n/pull/new/ft/service-redesign                                 e-redesign'.
 remote:
-To https://github.com/mpragmas/bundle-1---exercise-1.git
+To https://github.com/mpragmas/bundle-1---exercise-1.git      ft/service-redesign)
  * [new branch]      ft/service-redesign -> ft/service-redesign
 branch 'ft/service-redesign' set up to track 'origin/ft/service-redesign'.
 
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
 $ git checkout main
-Switched to a new branch 'main'
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git add readMe.md
-Merge branch 'main' of https://github.com/mpragmas/bundle-1---exercise-1
+$ git add --all
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git commit -m "bundle 2 exercise 2"
-[main ee10cc4] bundle 2 exercise 2
- 1 file changed, 65 insertions(+), 103 deletions(-)
+$ git commit -m "added old service list"
+[main 6dec671] added old service list
+ 1 file changed, 6 insertions(+), 1 deletion(-)
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
 $ git push
-Enumerating objects: 9, done.
-Counting objects: 100% (8/8), done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 974 bytes | 974.00 KiB/s, done.
-Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 remote: This repository moved. Please use the new location:
 remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git
 To https://github.com/mpragmas/bundle-1---exercise-1.git
-   24d68a7..e1a9121  main -> main
-
+   73d0751..6dec671  main -> main
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (main)
-$ git checkout ft/service-redesign
+$ git checkout  ft/service-redesign
 Switched to branch 'ft/service-redesign'
 Your branch is up to date with 'origin/ft/service-redesign'.
-
-
-HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
-$ git diff
-Your branch is up to date with 'origin/ft/service-redesign'.
-
+Merge branch 'main' into ft/service-redesign
 
 HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
-$ git merge
-Already up to date.
+$ git merge main
+Auto-merging services.html
+CONFLICT (content): Merge conflict in services.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign|MERGING)
+$ git add services.html
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign|MERGING)
+$ git commit
+[ft/service-redesign e94d80e] Merge branch 'main' into ft/service-redesign
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
+$ git diff main
+diff --git a/services.html b/services.html
+diff --git a/services.html b/services.html
+index c081bc5..a30432f 100644
+--- a/services.html
++++ b/services.html
+@@ -6,7 +6,6 @@
+     <title>Services Page</title>
+   </head>
+   <body>
+-
+     <h1>New Services</h1>
+     <ul>
+       <li>Booking</li>
+@@ -18,6 +17,5 @@
+       <li>Services 1</li>
+       <li>Services 2</li>
+     </ol>
+Merge branch 'main' into ft/service-redesign
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
+$ git merge main
+Auto-merging services.html
+CONFLICT (content): Merge conflict in services.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign|MERGING)
+$ git add --all services.html
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign|MERGING)
+$ git commit
+[ft/service-redesign 68d5ae4] Merge branch 'main' into ft/service-redesign
+
+HP@DESKTOP-4982QG7 MINGW64 ~/Documents/lesson/TheGym/git/1/1 (ft/service-redesign)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 555 bytes | 277.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mpragmas/TheGym-Git-exercises-.git
+To https://github.com/mpragmas/bundle-1---exercise-1.git
+   285fb34..68d5ae4  ft/service-redesign -> ft/service-redesign
+
 ```
